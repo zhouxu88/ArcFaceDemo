@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpToSingleImageActivity"
+        android:text="人脸属性检测(图片)" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpToMultiImageActivity"
+        android:text="人脸比对1：N(图片VS图片)" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="jumpToPreviewActivity"
+        android:text="人脸属性检测（相机）" />
+
+
+    <Button
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpToRegisterActivity"
+        android:text="人脸注册" />
+
+
+    <Button
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpToFaceRecognizeActivity"
+        android:text="人脸比对1:n（视频vs人脸库）" />
+
+
+
+</LinearLayout>
